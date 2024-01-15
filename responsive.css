@@ -1,0 +1,101 @@
+@media screen and (max-width: 639px) {
+}
+
+@media screen and (min-width: 640px) and (max-width: 1023px) {
+  .ind-down {
+    position: absolute;
+    left: 0;
+    bottom: 30%;
+    width: 380px;
+    height: 200px;
+    margin: 0 2%;
+  }
+  .ttx5-hed ul li {
+    margin: 0 2px;
+  }
+  .sec2-box {
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    height: 100%;
+  }
+  .ind-slider-tab {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .section2 {
+    height: 500px;
+  }
+
+  .sec2-box.sec-box {
+    display: flex;
+  }
+
+  .tabBox-2 {
+    margin: 0;
+  }
+
+  .sliderBox-2 {
+    margin-top: 0;
+  }
+
+  .sec3-box {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 0px auto;
+    position: relative;
+    height: 78%;
+    padding-top: 125px;
+  }
+  p.HERO-copyRight-p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  div#tabBox-2 {
+    margin-left: 10px;
+  }
+  div#sliderBox-2 {
+    margin-right: 10px;
+  }
+}
+
+/* Mobile and table */
+@media screen and (min-width: 0px) and (max-width: 1023px) {
+  .tabBox-1 {
+    position: relative;
+    margin-left: 4px;
+  }
+
+  /* .section3 {
+    height: 750px;
+  } */
+}
+
+@media screen and (min-width: 1024px) {
+  .ind-slider-tab {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .ind-down {
+    margin: 0 4%;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .ind-down {
+    margin: 0 4%;
+  }
+
+  .ind-slider-tab {
+    width: fit-content;
+    margin: auto;
+  }
+}
